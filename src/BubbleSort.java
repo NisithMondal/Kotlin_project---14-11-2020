@@ -17,7 +17,6 @@ public class BubbleSort {
             System.out.print(arr[i]+" ");
         }
         for (i = 1; i<=arr.length-1; i++){
-
             for (j = 0; j<=arr.length-1-i; j++){
                 if (arr[j]>arr[j+1]){
                     int temp = arr[j];
@@ -27,7 +26,7 @@ public class BubbleSort {
             }
 
         }
-        System.out.println("\nAfter sort");
+        System.out.println("After sort");
         for (i=0; i<arr.length; i++){
             System.out.print(arr[i]+" ");
         }

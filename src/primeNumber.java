@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.List;
-
 public class primeNumber {
     public static void main(String[] args) {
         boolean isPrime;

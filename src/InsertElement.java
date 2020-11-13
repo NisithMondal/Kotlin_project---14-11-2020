@@ -18,6 +18,7 @@ public class InsertElement {
         System.out.println("Enter the number");
         int number = scanner.nextInt();
         for (int i=lastValueIndex; i>=insertIndex; i--){
+            //this loop perform swaping
             arr[i+1] = arr[i];
         }
         System.out.println("After Inserting");

@@ -1,6 +1,6 @@
 public class RemoveDuplicate {
     public static void main(String[] args) {
-        int []input = {1,2,3,22,33,33,2,3,1,1,10};
+        int []input = {1,2,3,22,33,33,2,3,1,1,10,10,10,200,200};
         int i,j;
         for (i = 1; i<=input.length - 1; i++){
             for (j=0; j<=input.length - i-1; j++){
